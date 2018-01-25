@@ -1,6 +1,6 @@
 //
 //  AttachmentHandler.swift
-//  CameraHandler
+//  AttachmentHandler
 //
 //  Created by Deepak on 25/01/18.
 //  Copyright © 2018 Deepak. All rights reserved.
@@ -47,11 +47,11 @@ class AttachmentHandler: NSObject{
         static let file = "File"
         
         
-        static let alertForPhotoLibraryMessage = "Noticeboard does not have access to your photos. To enable access, tap settings and turn on Photo Library Access."
+        static let alertForPhotoLibraryMessage = "App does not have access to your photos. To enable access, tap settings and turn on Photo Library Access."
         
-        static let alertForCameraAccessMessage = "Noticeboard does not have access to your camera. To enable access, tap settings and turn on Camera."
+        static let alertForCameraAccessMessage = "App does not have access to your camera. To enable access, tap settings and turn on Camera."
         
-        static let alertForVideoLibraryMessage = "Noticeboard does not have access to your video. To enable access, tap settings and turn on Video Library Access."
+        static let alertForVideoLibraryMessage = "App does not have access to your video. To enable access, tap settings and turn on Video Library Access."
         
         
         static let settingsBtnTitle = "Settings"
